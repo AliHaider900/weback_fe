@@ -33,7 +33,7 @@ This is the frontend for the weBack project, built with Next.js and React. It pr
    npm run dev
    ```
 
-   The app will be available at [http://3.34.52.243:3000](http://3.34.52.243:3000).
+   The app will be available at [https://www.weback.kiwicoder.com/](https://www.weback.kiwicoder.com).
 
 5. **Build for production:**
    ```bash

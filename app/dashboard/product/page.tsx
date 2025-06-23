@@ -48,8 +48,8 @@ export default function ProductManagementPage() {
     setLoading(true);
     try {
       const url = term
-        ? `http://3.34.52.243:3000/api/v1/product/search/${term}`
-        : "http://3.34.52.243:3000/api/v1/product";
+        ? `https://www.weback.kiwicoder.com/api/v1/product/search/${term}`
+        : "https://www.weback.kiwicoder.com/api/v1/product";
 
       const response = await axios.get(url);
 

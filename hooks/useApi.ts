@@ -14,7 +14,7 @@ export function useProducts(categorySlug?: string | null) {
     const fetchData = async () => {
       setIsLoading(true);
       try {
-        let url = "http://3.34.52.243:3000/api/v1/product";
+        let url = "https://www.weback.kiwicoder.com/api/v1/product";
 
         // Add category as query parameter if provided
         if (categorySlug) {
@@ -70,7 +70,7 @@ export function useProduct(productId: string) {
       setIsLoading(true);
       try {
         const response = await axios.get(
-          `http://3.34.52.243:3000/api/v1/product/${productId}`
+          `https://www.weback.kiwicoder.com/api/v1/product/${productId}`
         );
 
         if (response.data.success) {
@@ -100,7 +100,7 @@ export function useProduct(productId: string) {
 export async function submitForm(formData: any) {
   try {
     const response = await axios.post(
-      "http://3.34.52.243:3000/api/v1/consultation",
+      "https://www.weback.kiwicoder.com/api/v1/consultation",
       formData
     );
     return response.data;

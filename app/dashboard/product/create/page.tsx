@@ -374,7 +374,7 @@ export default function CreateProductPage() {
 
     try {
       const response = await axios.post(
-        "http://3.34.52.243:3000/api/v1/product",
+        "https://www.weback.kiwicoder.com/api/v1/product",
         data,
         {
           headers: {
